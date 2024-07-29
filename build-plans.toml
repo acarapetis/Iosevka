@@ -1139,3 +1139,55 @@ shape = 600
 menu  = 7
 css   = "expanded"
 
+[buildPlans.IosevkaCompact]
+family = "Iosevka Compact"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = true
+
+[buildPlans.IosevkaCompact.metricOverride]
+leading = 1150
+powerlineScaleY = 1
+powerlineScaleX = 1
+powerlineShiftY = 0
+powerlineShiftX = 0
+
+[buildPlans.IosevkaCompact.variants.design]
+lig-neq = "vertical-dotted"
+lig-double-arrow-bar = "without-notch"
+
+[buildPlans.IosevkaCompact.weights.Light]
+shape = 300
+menu = 300
+css = 300
+
+[buildPlans.IosevkaCompact.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCompact.weights.SemiBold]
+shape = 600
+menu = 600
+css = 600
+
+[buildPlans.IosevkaCompact.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.IosevkaCompact.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaCompact.widths.Condensed]
+shape = 416
+menu = 3
+css = "condensed"
+
+[buildPlans.IosevkaCompact.widths.SemiCondensed]
+shape = 456
+menu = 4
+css = "semi-condensed"
